@@ -48,7 +48,7 @@ export default function ClientCarousel() {
   const allClients = [...clients, ...clients];
 
   return (
-    <section className="py-16 lg:py-24 relative">
+    <section className="py-16 lg:py-24 relative" suppressHydrationWarning>
       <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-navy-900/50 to-navy-950" />
       <div className="relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">

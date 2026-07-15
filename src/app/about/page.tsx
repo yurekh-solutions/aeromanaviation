@@ -27,28 +27,32 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-navy-950 to-navy-900/30" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="glass rounded-3xl overflow-hidden">
-              <div className="relative h-80">
+            <div>
+              {/* Founder Image - Large and clear */}
+              <div className="relative rounded-3xl overflow-hidden h-[420px] mb-6 shadow-2xl shadow-black/30">
                 <Image
                   src="/images/pages/founder.jpg"
                   alt="Captain Ahmed Al Ansari - Founder & CEO"
                   fill
                   className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/20 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="font-heading text-xl font-bold text-gold-400">Captain Ahmed Al Ansari</h3>
-                  <p className="text-white/60 text-sm">Founder & CEO</p>
+                  <h3 className="font-heading text-2xl font-bold text-gold-400">Captain Ahmed Al Ansari</h3>
+                  <p className="text-white/70 text-sm mt-1">Founder & CEO</p>
                 </div>
               </div>
-              <div className="p-6 grid grid-cols-2 gap-4">
-                <div className="glass-gold rounded-xl p-4 text-center">
-                  <p className="font-heading text-2xl font-bold text-gold-400">40+</p>
-                  <p className="text-xs text-white/50">Years in Aviation</p>
+
+              {/* Stat Cards - Prominent */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-navy-900/80 border border-gold-500/30 rounded-2xl p-5 text-center">
+                  <p className="font-heading text-3xl font-black text-gold-400">40+</p>
+                  <p className="text-sm text-white/60 mt-1">Years in Aviation</p>
                 </div>
-                <div className="glass-gold rounded-xl p-4 text-center">
-                  <p className="font-heading text-2xl font-bold text-gold-400">11,000</p>
-                  <p className="text-xs text-white/50">Flight Hours</p>
+                <div className="bg-navy-900/80 border border-gold-500/30 rounded-2xl p-5 text-center">
+                  <p className="font-heading text-3xl font-black text-gold-400">11,000</p>
+                  <p className="text-sm text-white/60 mt-1">Flight Hours</p>
                 </div>
               </div>
             </div>
