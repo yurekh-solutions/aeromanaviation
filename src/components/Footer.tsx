@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Globe, MessageCircle } from "lucide-react";
+import { Phone, Mail, Globe, MessageCircle } from "lucide-react";
 
 const companyLinks = [
   { href: "/", label: "Home" },
@@ -118,10 +118,7 @@ export default function Footer() {
                     <span>Sales@aeromanaviation.com</span>
                   </a>
                 </li>
-                <li className="flex items-start gap-2 text-sm text-white/60">
-                  <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
-                  <span>Al Jury Co. LLC, Suite 201 & 202, 2nd Floor, Ghala Industrial, Muscat, Oman</span>
-                </li>
+
               </ul>
             </div>
           </div>
@@ -133,7 +130,17 @@ export default function Footer() {
             <p className="text-xs text-white/40">
               © {new Date().getFullYear()} Aeroman Aviation. All rights reserved.
             </p>
-           
+            <p className="text-xs text-white/40">
+              Designed & Developed by{" "}
+              <a
+                href="https://yurekh.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gold-400 hover:text-gold-300 transition-colors font-medium"
+              >
+                Yurekh Solutions
+              </a>
+            </p>
           </div>
         </div>
       </div>
