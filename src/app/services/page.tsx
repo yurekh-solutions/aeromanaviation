@@ -25,7 +25,7 @@ const services = [
     desc: "Specialized sourcing of hard-to-find military aircraft parts with full ITAR/EAR compliance and secure logistics handling.",
     href: "/services/aircraft-parts",
     features: ["Mil-spec Certified", "ITAR/EAR Compliant", "Full Traceability", "Secure Logistics"],
-    image: "/images/pages/military-parts.png",
+    image: "/images/pages/warehouse.jpg",
   },
   {
     icon: Plane,
@@ -49,7 +49,7 @@ const services = [
     desc: "Versatile rotary-wing solutions for VIP transport, offshore operations, medical evacuation, and aerial surveys.",
     href: "/services/helicopter-charters",
     features: ["VIP Transport", "Offshore Ops", "MEDEVAC", "Aerial Surveys"],
-    image: "/images/pages/helicopter.jpg",
+    image: "/images/private-jet.jpg",
   },
   {
     icon: Wrench,
@@ -65,7 +65,7 @@ const services = [
     desc: "Expert assistance with aircraft sourcing, pre-purchase inspections, sales advisory, and fleet transaction management.",
     href: "/services/aircraft-sales",
     features: ["Aircraft Sourcing", "Pre-buy Inspection", "Sales Advisory", "Fleet Transactions"],
-    image: "/images/pages/aircraft-sales.jpg",
+    image: "/images/hero-aircraft.jpg",
   },
 ];
 
